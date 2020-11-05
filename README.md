@@ -9,7 +9,7 @@ Meus estudos de PHP avançado.
 - Base
     - [x] PHP FIG e PSRs. (rev.1) [link](https://www.schoolofnet.com/curso/php/linguagem-php/psrs/)
     - [x] PHP FIG e PSRs. (rev.2) [link](https://www.schoolofnet.com/curso/php/linguagem-php/php-fig-e-psrs-rev2/)
-    - [ ] PHP e Dependency injection na prática [link](https://www.schoolofnet.com/curso/php/linguagem-php/php-e-dependency-inje/)
+    - [x] PHP e Dependency injection na prática [link](https://www.schoolofnet.com/curso/php/linguagem-php/php-e-dependency-inje/)
     - [ ] SOLID com PHP (rev.1) [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/solid-com-php/)
     - [ ] SOLID com PHP (rev.2) [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/solid-com-php-rev2/)
 - Design Patterns por Erik Figueiredo
