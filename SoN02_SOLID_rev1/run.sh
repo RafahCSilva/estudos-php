@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 echo "==> RUNNING PHPUnit..."
+rm -rf tests/_reports
 vendor/bin/phpunit
 
 
@@ -15,12 +16,18 @@ vendor/bin/phpunit
 #  open http://sonarqube-wsl.com.br:9123/
 # docker-compose stop db sonarqube
 
+# replace absolutes paths for Sonar-Scanner mounted volume
+sed -i "s|/mnt/c/_WWW/|/code/projects/|" tests/_reports/report.junit.xml
+sed -i "s|/mnt/c/_WWW/|/code/projects/|" tests/_reports/coverage_clover.xml
 
 echo "==> RUNNING SONAR-SCANNER..."
 cd /mnt/c/_WWW/sonar-qube-and-scanner-local
 docker-compose run --rm sonar-scanner bash -c "sonar-scanner \
   -Dsonar.projectKey=son02_solid_rev1 \
   -Dsonar.projectBaseDir=/code/projects/estudos-php/SoN02_SOLID_rev1 \
+  -Dsonar.php.tests.reportPath=/code/projects/estudos-php/SoN02_SOLID_rev1/tests/_reports/report.junit.xml \
+  -Dsonar.php.coverage.reportPaths=/code/projects/estudos-php/SoN02_SOLID_rev1/tests/_reports/coverage_clover.xml \
+  -Dsonar.sourceEncoding=UTF-8 \
   -Dsonar.sources=/code/projects/estudos-php/SoN02_SOLID_rev1/src"
 
 

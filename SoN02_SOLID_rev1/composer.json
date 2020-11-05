@@ -15,5 +15,13 @@
     "psr-4": {
       "Solid\\Html\\": "src"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Solid\\Html\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
   }
 }

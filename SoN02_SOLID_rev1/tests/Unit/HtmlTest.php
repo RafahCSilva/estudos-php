@@ -1,8 +1,9 @@
 <?php
 
-namespace Solid\Html;
+namespace Test\Solid\Html\Unit;
 
 use PHPUnit\Framework\TestCase;
+use Solid\Html\Html;
 
 class HtmlTest extends TestCase
 {
