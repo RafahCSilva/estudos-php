@@ -1,0 +1,19 @@
+{
+  "name": "rafahcsilva/son02-solid-rev1",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Rafael Cardoso",
+      "email": "rafahcsilva@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Solid\\Html\\": "src"
+    }
+  }
+}
