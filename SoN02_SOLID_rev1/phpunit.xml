@@ -2,7 +2,7 @@
 <phpunit bootstrap="./vendor/autoload.php">
 
   <testsuites>
-    <testsuite name="The project's test suite">
+    <testsuite name="Testando o SoN02_SOLID_rev1">
       <directory>./tests</directory>
     </testsuite>
   </testsuites>
