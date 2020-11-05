@@ -24,4 +24,14 @@ class HtmlTest extends TestCase
         $this->assertEquals('<a href="https://example.com.br"><img src="img/photo.png"/></a>', $a);
     }
 
+    public function testCriarTagAWithClassAndId()
+    {
+        $html = new Html();
+        $a = $html->a('https://example.com.br', 'Meu Site');
+        $a->attribute([
+            'class' => 'btn btn-default'
+        ]);
+        $this->assertEquals('<a href="https://example.com.br" class="btn btn-default">Meu Site</a>', (string)$a);
+    }
+
 }
