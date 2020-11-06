@@ -10,8 +10,8 @@ Meus estudos de PHP avançado.
     - [x] PHP FIG e PSRs. (rev.1) [link](https://www.schoolofnet.com/curso/php/linguagem-php/psrs/)
     - [x] PHP FIG e PSRs. (rev.2) [link](https://www.schoolofnet.com/curso/php/linguagem-php/php-fig-e-psrs-rev2/)
     - [x] PHP e Dependency injection na prática [link](https://www.schoolofnet.com/curso/php/linguagem-php/php-e-dependency-inje/)
-    - [ ] SOLID com PHP (rev.1) [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/solid-com-php/)
-    - [ ] SOLID com PHP (rev.2) [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/solid-com-php-rev2/)
+    - [x] SOLID com PHP (rev.1) [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/solid-com-php/)
+    - [x] SOLID com PHP (rev.2) [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/solid-com-php-rev2/)
 - Design Patterns por Erik Figueiredo
     - [ ] Design Patterns com PHP (pt1) [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-com-php-pt1/)
     - [ ] Design Patterns (pt2): Padrões de criação [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-pt2-padroes-de-criacao/)

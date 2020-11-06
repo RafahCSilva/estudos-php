@@ -1,0 +1,4 @@
+vendor
+/.phpunit.result.cache
+/.scannerwork/
+tests/_reports
