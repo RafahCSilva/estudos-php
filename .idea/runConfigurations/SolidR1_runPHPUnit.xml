@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="SolidR1_runPHPUnit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+  <configuration default="false" name="SolidR1_runPHPUnit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" singleton="false">
     <TestRunner configuration_file="$PROJECT_DIR$/SoN02_SOLID_rev1/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
     <method v="2" />
   </configuration>

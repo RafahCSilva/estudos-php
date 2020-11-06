@@ -2,20 +2,23 @@
 
 namespace Solid\Html\ElementTypes;
 
-use Solid\Html\AttributeException;
+use Solid\Html\Exceptions\AttributeException;
 
 class A extends Element
 {
-    public function validate()
+    /**
+     * @throws AttributeException
+     */
+    public function validate(): void
     {
         if (!isset($this->attrs[0])) {
-            throw new AttributeException('Attribute href not fount');
+            throw new AttributeException('Attribute href not found');
         }
         if (!is_string($this->attrs[0])) {
             throw new AttributeException('Attribute href must be string');
         }
         if (!isset($this->attrs[1])) {
-            throw new AttributeException('Attribute child not fount');
+            throw new AttributeException('Attribute child not found');
         }
         if (!is_string($this->attrs[1])) {
             throw new AttributeException('Attribute child must be string');

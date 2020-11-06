@@ -1,10 +1,7 @@
 <?php
 
-
-namespace Solid\Html;
-
+namespace Solid\Html\Exceptions;
 
 class AttributeException extends \Exception
 {
-
 }
