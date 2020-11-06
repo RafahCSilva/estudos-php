@@ -19,13 +19,13 @@ class ImgTest extends TestCase
     {
         $this->expectException(AttributeException::class);
         $this->expectExceptionMessage('Attribute src not found');
-        $img = new Img();
+        new Img();
     }
 
     public function testImgAttributeExceptionSrcMustBeString(): void
     {
         $this->expectException(AttributeException::class);
         $this->expectExceptionMessage('Attribute src must be string');
-        $img = new Img(1);
+        new Img(1);
     }
 }

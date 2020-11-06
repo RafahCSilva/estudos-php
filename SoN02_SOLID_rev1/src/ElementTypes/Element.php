@@ -14,11 +14,16 @@ abstract class Element implements ElementsContract
     public function __construct()
     {
         $this->attrs = func_get_args();
+        foreach ($this->attrs as &$attr) {
+            if (is_a($attr, ElementsContract::class)) {
+                $attr = (string)$attr;
+            }
+        }
         $this->validate();
     }
 
-    public function attributes(Attributes $attrs): void
+    public function attributes(string $attrs): void
     {
-        $this->optional_attrs = (string)$attrs;
+        $this->optional_attrs = $attrs;
     }
 }

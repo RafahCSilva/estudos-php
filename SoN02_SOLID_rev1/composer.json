@@ -9,6 +9,7 @@
   ],
   "require": {},
   "require-dev": {
+    "ext-xdebug": "*",
     "phpunit/phpunit": "^9.4"
   },
   "autoload": {

@@ -6,7 +6,6 @@ namespace Test\Solid\Html\Unit\ElementTypes;
 use PHPUnit\Framework\TestCase;
 use Solid\Html\Attributes;
 use Solid\Html\ElementTypes\A;
-use Solid\Html\ElementTypes\Img;
 use Solid\Html\Exceptions\AttributeException;
 
 class ATest extends TestCase
@@ -25,7 +24,7 @@ class ATest extends TestCase
             'id' => 'login'
         ]);
         $a = new A('#', 'Login');
-        $a->attributes($attr);
+        $a->attributes((string)$attr);
         $this->assertEquals('<a href="#" class="btn btn-default" data-modal="#login" id="login">Login</a>', $a);
     }
 

@@ -1,4 +1,5 @@
 <?php
+/** @noinspection StaticInvocationViaThisInspection */
 
 namespace Test\Solid\Html\Unit;
 
@@ -7,7 +8,7 @@ use Solid\Html\Attributes;
 
 class AttributesTest extends TestCase
 {
-    public function testCriaAttributosHtmlParaElementos()
+    public function testCriaAttributosHtmlParaElementos(): void
     {
         $attributes = new Attributes([
             'class' => 'btn btn-default',

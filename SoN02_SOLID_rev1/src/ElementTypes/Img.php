@@ -9,7 +9,7 @@ class Img extends Element
     /**
      * @throws AttributeException
      */
-    public function validate():void
+    public function validate(): void
     {
         if (!isset($this->attrs[0])) {
             throw new AttributeException('Attribute src not found');
