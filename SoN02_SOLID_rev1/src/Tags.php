@@ -2,7 +2,7 @@
 
 namespace Solid\Html;
 
-class Element
+class Tags
 {
     public function img(string $src): string
     {

@@ -3,13 +3,13 @@
 namespace Test\Solid\Html\Unit;
 
 use PHPUnit\Framework\TestCase;
-use Solid\Html\Element;
+use Solid\Html\Tags;
 
-class ElementTest extends TestCase
+class TagsTest extends TestCase
 {
     public function testCriarTagImgWithSrc()
     {
-        $html = new Element();
+        $html = new Tags();
         $img = $html->img('img/photo.png');
 
         $this->assertEquals('<img src="img/photo.png"/>', $img);
@@ -17,7 +17,7 @@ class ElementTest extends TestCase
 
     public function testCriarATagWithChild()
     {
-        $html = new Element();
+        $html = new Tags();
         $img = $html->img('img/photo.png');
         $a = $html->a('https://example.com.br', $img);
 

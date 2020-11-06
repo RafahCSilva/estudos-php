@@ -8,11 +8,11 @@ class Attributes
 
     /**
      * Attributes constructor.
-     * @param $atrributes
+     * @param $attributes
      */
-    public function __construct($atrributes)
+    public function __construct($attributes)
     {
-        $this->attributes = $atrributes;
+        $this->attributes = $attributes;
     }
 
     public function __toString(): string
@@ -23,5 +23,4 @@ class Attributes
         }
         return ' ' . implode(' ', $result);
     }
-
 }
