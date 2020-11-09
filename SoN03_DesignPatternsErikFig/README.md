@@ -35,8 +35,9 @@
 
 ## Strategy
 
+- **Estrutural**
 - “Policy”
-- Define uma família ou tipo de classe de forma a reforçar, principalmente, os princípios Open/Closed e de Liskov do SOLID.
+- Define uma família ou tipo de classe de forma a reforçar, principalmente, os princípios **Open/Closed** e de **Liskov** do SOLID.
 - Uma única interface e uma ou mais classes concretas definem este padrão de projeto.
 
 
