@@ -6,10 +6,13 @@
       <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt1_padroes-de-projeto/tests" isTestSource="true" packagePrefix="\Tests\RCS\Db" />
       <sourceFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/tests" isTestSource="true" packagePrefix="\Tests\Solid\Html" />
       <sourceFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/src" isTestSource="false" packagePrefix="\Solid\Html" />
+      <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/src" isTestSource="false" packagePrefix="\RCS" />
+      <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/tests" isTestSource="true" packagePrefix="\Tests\RCS" />
       <excludeFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/.scannerwork" />
       <excludeFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/vendor" />
       <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt1_padroes-de-projeto/tests/_reports" />
       <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt1_padroes-de-projeto/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
