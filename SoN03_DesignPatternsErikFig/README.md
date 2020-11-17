@@ -65,6 +65,17 @@
     - classes delegam responsabilidade para uma dentre várias subclasses auxiliares, e você quer localizar o conhecimento de qual subclasse auxiliar que é a delegada.
 
 
+### Prototype
+
+- Em escopo de Objeto (run-time) e nao de Classes (build-time)
+- Clona de um objeto q ja esta funcional
+- **Problema**: Especificar os tipos de objetos a serem criados usando uma instância-protótipo e criar novos objetos pela cópia desse protótipo.
+- **Aplicabilidade**:
+    - quando as classes a instanciar forem especificadas em tempo de execução, por exemplo, por carga dinâmica;
+    - para evitar a construção de uma hierarquia de classes de fábricas paralela à hierarquia de classes de produto;
+    - quando as instâncias de uma classe puderem ter uma dentre poucas combinações diferentes de estados. Pode ser mais conveniente instalar um número correspondente de protótipos e cloná-los, ao invés de instanciar a classe manualmente, cada vez com um estado apropriado.
+
+
 ### Singleton
 
 - Anti-pattern? Talvez!!!
@@ -86,6 +97,5 @@
 
 
 
-### Prototype
 
 
