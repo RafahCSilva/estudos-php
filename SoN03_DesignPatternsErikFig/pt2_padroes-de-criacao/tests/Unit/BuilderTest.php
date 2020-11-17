@@ -6,19 +6,24 @@
 
 namespace Tests\RCS\Unit;
 
-class BuilderTest extends \PHPUnit\Framework\TestCase
+use PHPUnit\Framework\TestCase;
+use RCS\Builder\Director;
+use RCS\Builder\MySqlBuilder;
+use RCS\Builder\PostgresBuilder;
+
+class BuilderTest extends TestCase
 {
-    public function testMySqlBuilder()
+    public function testMySqlBuilder(): void
     {
-        $result = (new \RCS\Builder\Director(new \RCS\Builder\MySqlBuilder()))
+        $result = (new Director(new MySqlBuilder()))
             ->getQuery('users');
 
         $this->assertEquals('SELECT * FROM `users`', $result->getQuery());
     }
 
-    public function testPostgresBuilder()
+    public function testPostgresBuilder(): void
     {
-        $result = (new \RCS\Builder\Director(new \RCS\Builder\PostgresBuilder()))
+        $result = (new Director(new PostgresBuilder()))
             ->getQuery('users');
 
         $this->assertEquals('SELECT * FROM users', $result->getQuery());

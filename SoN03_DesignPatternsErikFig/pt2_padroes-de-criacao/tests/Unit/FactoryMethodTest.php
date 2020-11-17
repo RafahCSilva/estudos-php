@@ -3,13 +3,14 @@
 
 namespace Tests\RCS\Unit;
 
+use PHPUnit\Framework\TestCase;
 use RCS\FactoryMethod\Circle;
 use RCS\FactoryMethod\ConcreteCreator;
 use RCS\FactoryMethod\Triangle;
 
-class FactoryMethodTest extends \PHPUnit\Framework\TestCase
+class FactoryMethodTest extends TestCase
 {
-    public function testFactoryMethod()
+    public function testFactoryMethod(): void
     {
         $circle = (new ConcreteCreator())
             ->factoryMethod(new Circle());

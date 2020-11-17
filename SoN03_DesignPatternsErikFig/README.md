@@ -78,10 +78,14 @@
 
 ### Singleton
 
+- **Problema**: Garantir que uma classe tenha somente uma instância e fornecer um ponto global de acesso para a mesma.
+- **Aplicabilidade**:
+    - for preciso haver apenas uma instância de uma classe, e essa instância tiver que dar acesso aos clientes através de um ponto bem conhecido;
+    - a única instância tiver de ser extensível através de subclasses, possibilitando aos clientes usarem uma instância estendida sem alterar o seu código.
 - Anti-pattern? Talvez!!!
-- Contra 1: Forte acoplamento
-- Contra 2: Escopo
-- Contra 3: Testes Unitários
+    - Contra 1: Forte acoplamento, nao é possivel injetar dentro dela,
+    - Contra 2: Escopo
+    - Contra 3: Testes Unitários, terá que ser por testes de integração ou comportamento
 
 
 ### Strategy

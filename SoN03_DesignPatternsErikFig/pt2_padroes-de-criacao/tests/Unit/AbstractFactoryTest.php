@@ -3,10 +3,11 @@
 
 namespace Tests\RCS\Unit;
 
+use PHPUnit\Framework\TestCase;
 use RCS\AbstractFactory\EditoraA;
 use RCS\AbstractFactory\EditoraB;
 
-class AbstractFactoryTest extends \PHPUnit\Framework\TestCase
+class AbstractFactoryTest extends TestCase
 {
     public function testEditoraA(): void
     {

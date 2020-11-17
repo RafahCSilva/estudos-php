@@ -3,11 +3,13 @@
 
 namespace Tests\RCS\Unit;
 
+use PHPUnit\Framework\TestCase;
 use RCS\Prototype\ConcretePrototype;
+use RuntimeException;
 
-class PrototypeTest extends \PHPUnit\Framework\TestCase
+class PrototypeTest extends TestCase
 {
-    public function testPrototype()
+    public function testPrototype(): void
     {
         $original = new ConcretePrototype();
         $original->setTitle('PHP Essencial');
@@ -26,7 +28,7 @@ class PrototypeTest extends \PHPUnit\Framework\TestCase
         $this->assertNotEquals($original, $clone2);
 
 
-        $this->expectException(\RuntimeException::class);
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('Você está indo longe de mais meu filho...');
         $clone3 = clone $clone1;
         $clone3->setTitle('Laravel para artesãos');
