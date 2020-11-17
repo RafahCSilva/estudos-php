@@ -35,6 +35,11 @@
     - Um sistema deve ser configurado como um produto de uma família de múltiplos produtos;
     - Uma família de objetos-produto for projetada para ser usada em conjunto, e você necessita garantir esta restrição;
     - Você quer fornecer uma biblioteca de classes de produtos e quer revelar somente suas interfaces, não suas implementações
+- **Estrutura**:
+    - Interface para a Entidade
+    - Interface para a Factory
+    - Entidade concreta para cada tipo
+    - Factory Concreta para construir internamente as entidades e a retorna-la
 
 
 ### Singleton
