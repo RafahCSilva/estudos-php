@@ -4,8 +4,8 @@ namespace RCS\AbstractFactory;
 
 class LivroPHP implements AbstractEditoraA
 {
-    private $title = null;
-    private $author = null;
+    private ?string $title;
+    private ?string $author;
 
     public function getTitle(): string
     {

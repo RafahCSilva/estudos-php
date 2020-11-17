@@ -56,6 +56,15 @@
     - Produto: resultado obtido no final
 
 
+### Factory Method
+
+- **Problema**: Definir uma interface para criar um objeto, mas deixar as subclasses decidirem que classe instanciar. O Factory Method permite adiar a instanciação para subclasses.
+- **Aplicabilidade**:
+    - uma classe não pode antecipar a classe de objetos que deve criam;
+    - uma classe quer que suas subclasses especifiquem os objetos que criam;
+    - classes delegam responsabilidade para uma dentre várias subclasses auxiliares, e você quer localizar o conhecimento de qual subclasse auxiliar que é a delegada.
+
+
 ### Singleton
 
 - Anti-pattern? Talvez!!!
@@ -74,7 +83,6 @@
 
 
 
-### Factory Method
 
 
 
