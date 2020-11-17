@@ -7,8 +7,12 @@
       "email": "rafahcsilva@gmail.com"
     }
   ],
-  "require": {},
+  "require": {
+    "ext-json": "*",
+    "ext-pdo": "*"
+  },
   "require-dev": {
+    "ext-sqlite3": "*",
     "ext-xdebug": "*",
     "phpunit/phpunit": "^9.4"
   },
