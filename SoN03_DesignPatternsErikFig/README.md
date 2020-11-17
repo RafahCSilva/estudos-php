@@ -42,6 +42,20 @@
     - Factory Concreta para construir internamente as entidades e a retorna-la
 
 
+### Builder
+
+- **Problema**: Separar a construção de um objeto complexo da sua representação de modo que o mesmo processo de construção possa criar diferentes representações.
+- **Aplicabilidade**:
+    - O algoritmo para criação de um objeto complexo deve ser independente das partes que compõem o objeto e de como elas são montadas.
+    - O processo de construção deve permitir diferentes representações para o objeto que é construído.
+- **Estrutura**:
+    - Interface Builder: Define o Builder
+    - Interface Director: Define o Director
+    - Builder Concreto: Informa q cada etapa faz para o produto pode ser construído (como faz)
+    - Director Concreto: Informa a ordem que os passos serão feitos (passo-a-passo)
+    - Produto: resultado obtido no final
+
+
 ### Singleton
 
 - Anti-pattern? Talvez!!!
@@ -56,14 +70,6 @@
 - “Policy”
 - Define uma família ou tipo de classe de forma a reforçar, principalmente, os princípios **Open/Closed** e de **Liskov** do SOLID.
 - Uma única interface e uma ou mais classes concretas definem este padrão de projeto.
-
-
-### Builder
-
-- Director Concreto: Constrói o resultado
-- Builder Concreto: Define os passos para o director
-- Interface Director: Define o Director
-- Interface Builder: Define o Builder
 
 
 
