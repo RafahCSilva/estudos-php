@@ -6,9 +6,15 @@ class Singleton
 {
     protected static ?ConcreteClass $instance = null;
 
-//    protected function __construct()
-//    {
-//    }
+    // Singleton é uma factory, então tem q bloquear estes 3 métodos:
+    // @formatter:off
+    /** @codeCoverageIgnore */
+    protected function __construct(){}
+    /** @codeCoverageIgnore */
+    protected function __clone(){}
+    /** @codeCoverageIgnore */
+    protected function __wakeup(){}
+    // @formatter:on
 
     public static function getInstance(): ConcreteClass
     {
@@ -17,8 +23,4 @@ class Singleton
         }
         return self::$instance;
     }
-
-//    protected function __clone()
-//    {
-//    }
 }

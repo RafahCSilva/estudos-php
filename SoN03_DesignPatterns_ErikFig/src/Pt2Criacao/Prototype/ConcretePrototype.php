@@ -22,7 +22,7 @@ class ConcretePrototype
     {
         $this->counter++;
         if ($this->counter > 1) {
-            throw new \RuntimeException("Você está indo longe de mais meu filho...");
+            throw new ConcretePrototypeException("Você está indo longe de mais meu filho...");
         }
     }
 }

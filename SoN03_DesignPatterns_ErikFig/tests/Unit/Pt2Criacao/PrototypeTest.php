@@ -5,6 +5,7 @@ namespace Tests\RCS\DesignPatterns1\Unit\Pt2Criacao;
 
 use PHPUnit\Framework\TestCase;
 use RCS\DesignPatterns1\Pt2Criacao\Prototype\ConcretePrototype;
+use RCS\DesignPatterns1\Pt2Criacao\Prototype\ConcretePrototypeException;
 use RuntimeException;
 
 class PrototypeTest extends TestCase
@@ -28,7 +29,7 @@ class PrototypeTest extends TestCase
         $this->assertNotEquals($original, $clone2);
 
 
-        $this->expectException(RuntimeException::class);
+        $this->expectException(ConcretePrototypeException::class);
         $this->expectExceptionMessage('Você está indo longe de mais meu filho...');
         $clone3 = clone $clone1;
         $clone3->setTitle('Laravel para artesãos');

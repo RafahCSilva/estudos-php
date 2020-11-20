@@ -10,9 +10,14 @@ class DbSingleton
     protected static ?string $config = null;
 
     // Singleton é uma factory, então tem q bloquear estes 3 métodos:
-    //   protected function __construct(){}
-    //   protected function __clone(){}
-    //   protected function __wakeup(){}
+    // @formatter:off
+    /** @codeCoverageIgnore */
+    protected function __construct(){}
+    /** @codeCoverageIgnore */
+    protected function __clone(){}
+    /** @codeCoverageIgnore */
+    protected function __wakeup(){}
+    // @formatter:on
 
     public static function configure(string $config): void
     {
