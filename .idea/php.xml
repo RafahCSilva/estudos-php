@@ -2,41 +2,41 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpunit/php-invoker" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/composer" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/type" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/lines-of-code" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/cli-parser" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/code-unit" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/complexity" />
-      <path value="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/composer" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/phar-io/version" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
@@ -115,7 +115,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/SoN02_SOLID_rev1/vendor/autoload.php" phpunit_phar_path="" />
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/vendor/autoload.php" />
     </phpunit_settings>
   </component>
 </project>

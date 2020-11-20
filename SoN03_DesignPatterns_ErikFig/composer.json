@@ -1,0 +1,32 @@
+{
+  "name": "rafahcsilva/design-patterns-1",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Rafael Cardoso",
+      "email": "rafahcsilva@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "ext-sqlite3": "*",
+    "ext-xdebug": "*",
+    "phpunit/phpunit": "^9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "RCS\\DesignPatterns1\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\RCS\\DesignPatterns1\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}

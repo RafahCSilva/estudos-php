@@ -2,17 +2,17 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt1_padroes-de-projeto/src" isTestSource="false" packagePrefix="\RCS\Db" />
-      <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt1_padroes-de-projeto/tests" isTestSource="true" packagePrefix="\Tests\RCS\Db" />
-      <sourceFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/tests" isTestSource="true" packagePrefix="\Tests\Solid\Html" />
-      <sourceFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/src" isTestSource="false" packagePrefix="\Solid\Html" />
-      <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/src" isTestSource="false" packagePrefix="\RCS" />
-      <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/tests" isTestSource="true" packagePrefix="\Tests\RCS" />
+      <sourceFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/src" isTestSource="false" packagePrefix="Solid\Html\" />
+      <sourceFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/tests" isTestSource="true" packagePrefix="Tests\Solid\Html\" />
+      <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatterns_ErikFig/src" isTestSource="false" packagePrefix="RCS\DesignPatterns1\" />
+      <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatterns_ErikFig/tests" isTestSource="true" packagePrefix="Tests\RCS\DesignPatterns1\" />
       <excludeFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/.scannerwork" />
+      <excludeFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/tests/_reports" />
       <excludeFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/vendor" />
-      <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt1_padroes-de-projeto/tests/_reports" />
-      <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt1_padroes-de-projeto/vendor" />
-      <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatterns_ErikFig/.scannerwork" />
+      <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatterns_ErikFig/_SoN_GH" />
+      <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatterns_ErikFig/tests/_reports" />
+      <excludeFolder url="file://$MODULE_DIR$/SoN03_DesignPatterns_ErikFig/vendor" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,6 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="DP-2_runPHPUnit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-    <TestRunner configuration_file="$PROJECT_DIR$/SoN03_DesignPatternsErikFig/pt2_padroes-de-criacao/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
-    <method v="2" />
-  </configuration>
-</component>
