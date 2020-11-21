@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace RCS\DesignPatterns1\Pt2Criacao\FactoryMethod;
 
 class Triangle implements ProductInterface

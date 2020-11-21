@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace RCS\DesignPatterns1\Pt1Intro\Builder;
 
 abstract class ModelAbstract implements DirectorInterface
