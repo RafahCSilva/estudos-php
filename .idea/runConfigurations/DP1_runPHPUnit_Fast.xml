@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DP1_runPHPUnit_Fast" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <CommandLine workingDirectory="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig" />
+    <TestRunner configuration_file="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig/phpunit.xml" scope="XML" options="--no-logging --no-coverage -d 'xdebug.profiler_enable=off' -d 'xdebug.remote_enable=0' --colors=auto" use_alternative_configuration_file="true" />
+    <method v="2" />
+  </configuration>
+</component>

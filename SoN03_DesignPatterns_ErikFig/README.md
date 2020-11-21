@@ -131,9 +131,13 @@ o que, de outra forma, seria impossível.
 
 
 
+## Run this project
 
+````shell script
+composer install
+./run_tests.sh
+./run_send_sonar_local.sh
 
-
-
-
-
+# fast testing
+./run_tests.sh --fast
+````

@@ -1,28 +1,65 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://phpunit.readthedocs.io/en/9.3/configuration.html# -->
+<!-- xmlns="./vendor/phpunit/phpunit/schema/9.2.xsd" -->
 <phpunit
-  bootstrap="./vendor/autoload.php"
-  colors="true">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.4/phpunit.xsd"
+  bootstrap="vendor/autoload.php"
+  colors="true"
+  cacheResultFile="tests/_reports/.phpunit.cache/test-results"
+  executionOrder="depends,defects"
+  forceCoversAnnotation="false"
+  beStrictAboutCoversAnnotation="true"
+  beStrictAboutOutputDuringTests="true"
+  beStrictAboutTodoAnnotatedTests="true"
+  failOnRisky="true"
+  failOnWarning="true"
+  verbose="true"
+>
 
   <testsuites>
-    <testsuite name="Unit">
-      <directory suffix="Test.php">./tests/Unit</directory>
+    <testsuite name="Unit_Pt1Intro">
+      <directory suffix="Test.php">./tests/Unit/Pt1Intro</directory>
+    </testsuite>
+    <testsuite name="Unit_Pt2Criacao">
+      <directory suffix="Test.php">./tests/Unit/Pt2Criacao</directory>
+    </testsuite>
+    <testsuite name="Unit_Pt3Estruturais">
+      <directory suffix="Test.php">./tests/Unit/Pt3Estruturais</directory>
+    </testsuite>
+    <testsuite name="Unit_Pt4Comportamentais">
+      <directory suffix="Test.php">./tests/Unit/Pt4Comportamentais</directory>
     </testsuite>
   </testsuites>
 
-  <filter>
-    <whitelist
-      processUncoveredFilesFromWhitelist="true">
-      <directory suffix=".php">./src</directory>
-    </whitelist>
-  </filter>
+  <coverage
+    cacheDirectory="tests/_reports/.phpunit.cache/code-coverage"
+    includeUncoveredFiles="true"
+    processUncoveredFiles="true"
+    pathCoverage="true"
+    ignoreDeprecatedCodeUnits="true"
+    disableCodeCoverageIgnore="false"
+  >
+    <include>
+      <directory suffix=".php">src</directory>
+    </include>
+    <report>
+      <clover outputFile="tests/_reports/_coverage/clover.xml"/>
+      <crap4j outputFile="tests/_reports/_coverage/crap4j.xml" threshold="50"/>
+      <html outputDirectory="tests/_reports/_coverage/html-coverage" lowUpperBound="50" highLowerBound="90"/>
+      <xml outputDirectory="tests/_reports/_coverage/xml-coverage"/>
+      <php outputFile="tests/_reports/_coverage/coverage.php"/>
+      <text outputFile="tests/_reports/_coverage/coverage.txt" showUncoveredFiles="true" showOnlySummary="true"/>
+    </report>
+  </coverage>
 
   <logging>
-    <log type="coverage-html" target="tests/_reports/coverage_html" lowUpperBound="35" highLowerBound="70"/>
-    <log type="coverage-clover" target="tests/_reports/coverage_clover.xml"/>
-    <log type="coverage-php" target="tests/_reports/coverage_php.serialized.php"/>
-    <log type="coverage-text" target="tests/_reports/coverage_text.txt" showUncoveredFiles="false"/>
-    <log type="junit" target="tests/_reports/report.junit.xml" logIncompleteSkipped="false"/>
-    <log type="testdox-html" target="tests/_reports/testdox.html"/>
-    <log type="testdox-text" target="tests/_reports/testdox.txt"/>
+    <junit outputFile="tests/_reports/report.junit.xml"/>
+    <teamcity outputFile="tests/_reports/_teamcity/teamcity.txt"/>
+    <testdoxHtml outputFile="tests/_reports/_testdox/testdox.html"/>
+    <testdoxText outputFile="tests/_reports/_testdox/testdox.txt"/>
+    <testdoxXml outputFile="tests/_reports/_testdox/testdox.xml"/>
+    <text outputFile="tests/_reports/logfile.txt"/>
   </logging>
+
 </phpunit>
