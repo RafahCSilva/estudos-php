@@ -8,12 +8,12 @@ class ConcreteClass
 
     public function __construct()
     {
-        var_dump('construiu');
+        //xdebug_var_dump('construiu');
     }
 
     public function __clone()
     {
-        var_dump('clonada');
+        //xdebug_var_dump('clonada');
     }
 
     public function getCounter(): int

@@ -112,6 +112,16 @@ o que, de outra forma, seria impossível.
     - desejar compartilhar uma implementação entre múltiplos objetos (talvez usando a contagem de referências) e este fato deve estar oculto do cliente.
 
 
+### Composite
+
+- **Problema**:
+    - Compor objetos em estruturas de árvore para representarem hierarquias partes-todo.
+    - Composite permite aos clientes tratarem de maneira uniforme objetos individuais e composições de objetos.
+- **Aplicabilidade**:
+    - quiser representar hierarquias partes-todo de objetos;
+    - quiser que os clientes sejam capazes de ignorar a diferença entre composições de objetos e objetos individuais. Os clientes tratarão todos os objetos na estrutura composta de maneira uniforme.
+
+
 ### Strategy
 
 - **Estrutural**
