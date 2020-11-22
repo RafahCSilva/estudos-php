@@ -141,6 +141,18 @@ o que, de outra forma, seria impossível.
     - existirem muitas dependências entre clientes e classes de implementação de uma abstração. Ao introduzir uma fachada para desacoplar o subsistema dos clientes e de outros subsistemas, estar-se-á promovendo a independência e portabilidade dos subsistemas
 
 
+### Flyweight
+
+- **Problema**: Usar compartilhamento para suportar eficientemente grandes quantidades de objetos de granularidade fina.
+- **Aplicabilidade**:
+    - A eficiência do padrão Flyweight depende muito de como e onde ele é usado. Aplique o padrão Flyweight quando todas as condições a seguir forem verdadeiras:
+    - uma aplicação utiliza um grande número de objetos;
+    - os custos de armazenamento são altos por causa da grande quantidade de objetos;
+    - a maioria dos estados de objetos pode ser tornada extrínseca;
+    - muitos grupos de objetos podem ser substituídos por relativamente poucos objetos compartilhados, uma vez que estados extrínsecos são removidos;
+    - a aplicação não depende da identidade dos objetos. Uma vez que objetos Flyweights podem ser compartilhados, testes de identidade produzirão o valor verdadeiro para objetos conceitualmente distintos.
+
+
 ### Strategy
 
 - **Estrutural**
