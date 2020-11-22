@@ -25,4 +25,26 @@ class DecoratorTest extends TestCase
         $result = $migration->operation();
         $this->assertEquals('users migrated', $result);
     }
+
+    public function testDecoratorByReflection(): void
+    {
+        $user = new User();
+        $user->setName('Rafael Cardoso');
+
+        $reflector = new \ReflectionClass(User::class);
+        $docComment = $reflector->getDocComment();
+
+        preg_match('/@decorator ([0-9a-zA-Z]+)/', $docComment, $matches);
+
+        if (!isset($matches[1])) {
+            return;
+        }
+        $class = '\\RCS\\DesignPatterns1\\Pt3Estruturais\\Decorator\\' . $matches[1] . 'Decorator';
+
+        /** @var OrmDecorator $orm */
+        $orm = new $class;
+        $orm->setEntity($user);
+        $result = $orm->operation();
+        $this->assertEquals('Rafael Cardoso funded in database', $result);
+    }
 }
