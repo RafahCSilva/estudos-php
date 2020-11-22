@@ -153,6 +153,18 @@ o que, de outra forma, seria impossível.
     - a aplicação não depende da identidade dos objetos. Uma vez que objetos Flyweights podem ser compartilhados, testes de identidade produzirão o valor verdadeiro para objetos conceitualmente distintos.
 
 
+### Proxy
+
+- **Problema**: Fornece um substituto (surrogate) ou marcador da localização de outro objeto para controlar o acesso a esse objeto.
+- **Aplicabilidade**:
+    - Um virtual proxy cria objetos caros sob demanda.
+    - Um protection proxy controla o acesso ao objeto original. Os proxies de proteção são úteis quando os objetos devem ter diferentes direitos de acesso.
+    - Um smart reference é um substituto para um simples pointer que executa ações adicionais quando um objeto é acessado. Usos típicos incluem:
+        - contar o número de referências para o objeto real, de modo que o mesmo possa ser liberado automaticamente quando não houver mais referências
+        - carregar um objeto persistente para a memória quando ele for referenciado pela primeira vez;
+        - verificar se o objeto real está bloqueado antes de ser acessado, para assegurar que nenhum outro objeto possa mudá-lo.
+
+
 ### Strategy
 
 - **Estrutural**
