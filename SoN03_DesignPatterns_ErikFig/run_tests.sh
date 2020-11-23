@@ -12,7 +12,10 @@ if [ "$1" == "--fast" ]; then
 else
   echo "==> RUNNING FULL PHPUnit..." &&
     rm -rf tests/_reports &&
-    time vendor/bin/phpunit
+    time vendor/bin/phpunit &&
+    echo "" &&
+    echo "to see coverage, run:" &&
+    echo "  open tests/_reports/_coverage/html-coverage/index.html"
 fi
 
 echo "==> FIM!"
