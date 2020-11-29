@@ -1,24 +1,23 @@
 # Design Patterns
 
+- [designpatternsphp.readthedocs.io](https://designpatternsphp.readthedocs.io/)
 - "Padrões de projeto – Soluções reutilizáveis de software orientado a objetos." - Livro
-
-- The Gang of Four (GOF):
-    - Erich Gama
-    - Richard Helm
-    - Ralph Johnson
-    - Josh Vlissides
-
-- 23 padrões de projeto segundo GOF:
-    - Padrões de criação (5)
-        - Abstract Factory - Builder - Factory Method - Prototype - Singleton
-    - Padrões estruturais (7)
-        - Adapter - Bridge - Composite - Decorator - Façade (ou Facade) - Flyweight - Proxy
-    - Padrões comportamentais (11)
-        - Chain of Responsibility - Command - Interpreter - Iterator - Mediator - Memento - Observer - State - Strategy - Template Method – Visitor
-- 24º Padrão - MVC
-    - Model -> Lógica
-    - View -> Exibição
-    - Controller -> Fluxo
+    - The Gang of Four (GOF):
+        - Erich Gama
+        - Richard Helm
+        - Ralph Johnson
+        - Josh Vlissides
+    - 23 padrões de projeto segundo GOF:
+        - Padrões de criação (5)
+            - Abstract Factory - Builder - Factory Method - Prototype - Singleton
+        - Padrões estruturais (7)
+            - Adapter - Bridge - Composite - Decorator - Façade (ou Facade) - Flyweight - Proxy
+        - Padrões comportamentais (11)
+            - Chain of Responsibility - Command - Interpreter - Iterator - Mediator - Memento - Observer - State - Strategy - Template Method – Visitor
+    - 24º Padrão - MVC
+        - Model -> Lógica
+        - View -> Exibição
+        - Controller -> Fluxo
 
 - O escopo dos padrões de projeto
     - Escopo de classe (Relacionamentos definidos nas classes)
@@ -201,6 +200,15 @@ o que, de outra forma, seria impossível.
     - para acessar os conteúdos de um objeto agregado sem expor a sua representação interna;
     - para suportar múltiplos percursos de objetos agregados;
     - para fornecer uma interface uniforme que percorra diferentes estruturas agregadas (ou seja, para suportar a iteração polimórfica).
+
+
+### Mediator
+
+- **Problema**: Definir um objeto que encapsula a forma como um conjunto de objetos interage. O Mediator promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente e permite variar suas interações independentemente.
+- **Aplicabilidade**:
+    - um conjunto de objetos se comunica de maneiras bem-definidas, porém complexas. As interdependências resultantes são desestruturadas e difíceis de entender.
+    - a reutilização de um objeto é difícil porque ele referencia e se comunica com muitos outros objetos.
+    - um comportamento que está distribuído entre várias classes deveria ser customizável, ou adaptável, sem excessiva especialização em subclasses
 
 
 ### Strategy
