@@ -194,6 +194,15 @@ o que, de outra forma, seria impossível.
     - a eficiência não é uma preocupação crítica. Os interpretadores mais eficientes normalmente não são implementados pela interpretação direta de árvores de análise sintática, mas pela sua tradução para uma outra forma. Por exemplo, expressões regulares são freqüentemente transformadas em máquinas de estado. Porém, mesmo assim, o tradutor pode ser implementado pelo padrão Interpreter, sendo o padrão, portanto, ainda aplicável.
 
 
+### Iterator
+
+- **Problema**: Fornecer um meio de acessar, seqüencialmente, os elementos de um objeto agregado sem expor a sua representação subjacente.
+- **Aplicabilidade**:
+    - para acessar os conteúdos de um objeto agregado sem expor a sua representação interna;
+    - para suportar múltiplos percursos de objetos agregados;
+    - para fornecer uma interface uniforme que percorra diferentes estruturas agregadas (ou seja, para suportar a iteração polimórfica).
+
+
 ### Strategy
 
 - **Estrutural**
