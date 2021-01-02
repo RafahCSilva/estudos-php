@@ -8,7 +8,7 @@
  * Time: 18:42
  */
 
-namespace Test\RCS\QueryBuilder\Unit\MySQL;
+namespace Tests\RCS\QueryBuilder\Unit\MySQL;
 
 use PHPUnit\Framework\TestCase;
 use RCS\QueryBuilder\MySQL\Select;

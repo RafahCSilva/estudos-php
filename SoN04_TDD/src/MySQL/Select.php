@@ -14,6 +14,7 @@ class Select
 {
     private string $table;
     private array $fields;
+    private array $filters;
 
     public function table(string $table): self
     {
@@ -30,9 +31,23 @@ class Select
     public function getSql(): string
     {
         return sprintf(
-            "SELECT %s FROM %s;",
-            empty($this->fields) ? '*' : implode(', ', $this->fields),
-            $this->table
+            "SELECT %s FROM %s%s;",
+            empty($this->fields) ?
+                '*' :
+                implode(', ', $this->fields),
+            $this->table,
+            empty($this->filters) ?
+                '' :
+                ' ' . implode(' ', $this->filters),
         );
+    }
+
+    public function filter(Filters $filter): Select
+    {
+        $sql = $filter->getSql();
+        if (!empty($sql)) {
+            $this->filters[] = $sql;
+        }
+        return $this;
     }
 }

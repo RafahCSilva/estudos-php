@@ -11,7 +11,7 @@ namespace RCS\QueryBuilder\MySQL;
 class Filters
 {
 
-    private array $sql;
+    private array $sql = [];
 
     public function where(string $column, string $operation, string $value): Filters
     {

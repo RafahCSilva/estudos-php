@@ -8,7 +8,7 @@
  * Time: 19:22
  */
 
-namespace Test\RCS\QueryBuilder\Unit\MySQL;
+namespace Tests\RCS\QueryBuilder\Unit\MySQL;
 
 use PHPUnit\Framework\TestCase;
 use RCS\QueryBuilder\MySQL\Filters;

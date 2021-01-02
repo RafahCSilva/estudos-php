@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatterns_ErikFig/src" isTestSource="false" packagePrefix="RCS\DesignPatterns\" />
       <sourceFolder url="file://$MODULE_DIR$/SoN03_DesignPatterns_ErikFig/tests" isTestSource="true" packagePrefix="Tests\RCS\DesignPatterns\" />
       <sourceFolder url="file://$MODULE_DIR$/SoN04_TDD/src" isTestSource="false" packagePrefix="RCS\QueryBuilder\" />
-      <sourceFolder url="file://$MODULE_DIR$/SoN04_TDD/tests" isTestSource="true" packagePrefix="Test\RCS\QueryBuilder" />
+      <sourceFolder url="file://$MODULE_DIR$/SoN04_TDD/tests" isTestSource="true" packagePrefix="Tests\RCS\QueryBuilder" />
       <excludeFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/.scannerwork" />
       <excludeFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/tests/_reports" />
       <excludeFolder url="file://$MODULE_DIR$/SoN02_SOLID_rev1/vendor" />
