@@ -13,6 +13,7 @@ namespace RCS\QueryBuilder\MySQL;
 class Select
 {
     private string $table;
+    private array $fields;
 
     public function table(string $table): self
     {
@@ -20,8 +21,18 @@ class Select
         return $this;
     }
 
+    public function fields(array $fields): self
+    {
+        $this->fields = $fields;
+        return $this;
+    }
+
     public function getSql(): string
     {
-        return sprintf("SELECT * FROM %s;", $this->table);
+        return sprintf(
+            "SELECT %s FROM %s;",
+            empty($this->fields) ? '*' : implode(', ', $this->fields),
+            $this->table
+        );
     }
 }

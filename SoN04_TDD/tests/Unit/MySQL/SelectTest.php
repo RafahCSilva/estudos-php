@@ -13,6 +13,10 @@ namespace Test\RCS\QueryBuilder\Unit\MySQL;
 use PHPUnit\Framework\TestCase;
 use RCS\QueryBuilder\MySQL\Select;
 
+/**
+ * Class SelectTest
+ * @package Test\RCS\QueryBuilder\Unit\MySQL
+ */
 class SelectTest extends TestCase
 {
 
@@ -37,4 +41,17 @@ class SelectTest extends TestCase
         );
     }
 
+    /**
+     * @covers \RCS\QueryBuilder\MySQL\Select
+     */
+    public function testSelectEspecificandoOsCampos(): void
+    {
+        $this->assertEquals(
+            'SELECT name, email FROM users;',
+            (new Select())
+                ->table('users')
+                ->fields(['name', 'email'])
+                ->getSql()
+        );
+    }
 }
