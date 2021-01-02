@@ -8,7 +8,7 @@
   colors="true"
   cacheResultFile="tests/_reports/.phpunit.cache/test-results"
   executionOrder="depends,defects"
-  forceCoversAnnotation="false"
+  forceCoversAnnotation="true"
   beStrictAboutCoversAnnotation="true"
   beStrictAboutOutputDuringTests="true"
   beStrictAboutTodoAnnotatedTests="true"
