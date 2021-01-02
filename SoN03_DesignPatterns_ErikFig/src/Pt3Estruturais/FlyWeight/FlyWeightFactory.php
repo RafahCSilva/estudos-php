@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt3Estruturais\FlyWeight;
+namespace RCS\DesignPatterns\Pt3Estruturais\FlyWeight;
 
 class FlyWeightFactory
 {

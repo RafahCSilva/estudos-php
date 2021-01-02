@@ -1,12 +1,12 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt3Estruturais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt3Estruturais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt3Estruturais\Decorator\MigrationDecorator;
-use RCS\DesignPatterns1\Pt3Estruturais\Decorator\OrmDecorator;
-use RCS\DesignPatterns1\Pt3Estruturais\Decorator\User;
+use RCS\DesignPatterns\Pt3Estruturais\Decorator\MigrationDecorator;
+use RCS\DesignPatterns\Pt3Estruturais\Decorator\OrmDecorator;
+use RCS\DesignPatterns\Pt3Estruturais\Decorator\User;
 
 class DecoratorTest extends TestCase
 {
@@ -39,7 +39,7 @@ class DecoratorTest extends TestCase
         if (!isset($matches[1])) {
             return;
         }
-        $class = '\\RCS\\DesignPatterns1\\Pt3Estruturais\\Decorator\\' . $matches[1] . 'Decorator';
+        $class = '\\RCS\\DesignPatterns\\Pt3Estruturais\\Decorator\\' . $matches[1] . 'Decorator';
 
         /** @var OrmDecorator $orm */
         $orm = new $class;

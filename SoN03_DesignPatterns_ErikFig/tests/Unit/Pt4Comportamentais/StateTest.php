@@ -1,12 +1,12 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt4Comportamentais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt4Comportamentais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt4Comportamentais\State\Door;
-use RCS\DesignPatterns1\Pt4Comportamentais\State\IllegalStateTransitionException;
-use RCS\DesignPatterns1\Pt4Comportamentais\State\OpenDoorState;
+use RCS\DesignPatterns\Pt4Comportamentais\State\Door;
+use RCS\DesignPatterns\Pt4Comportamentais\State\IllegalStateTransitionException;
+use RCS\DesignPatterns\Pt4Comportamentais\State\OpenDoorState;
 
 class StateTest extends TestCase
 {

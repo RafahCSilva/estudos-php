@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt4Comportamentais\Command;
+namespace RCS\DesignPatterns\Pt4Comportamentais\Command;
 
 class Invoker
 {

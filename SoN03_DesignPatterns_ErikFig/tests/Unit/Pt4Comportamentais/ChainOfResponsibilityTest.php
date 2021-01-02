@@ -1,13 +1,13 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt4Comportamentais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt4Comportamentais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt4Comportamentais\ChainOfResponsibility\After;
-use RCS\DesignPatterns1\Pt4Comportamentais\ChainOfResponsibility\Before;
-use RCS\DesignPatterns1\Pt4Comportamentais\ChainOfResponsibility\Handler;
-use RCS\DesignPatterns1\Pt4Comportamentais\ChainOfResponsibility\Request;
+use RCS\DesignPatterns\Pt4Comportamentais\ChainOfResponsibility\After;
+use RCS\DesignPatterns\Pt4Comportamentais\ChainOfResponsibility\Before;
+use RCS\DesignPatterns\Pt4Comportamentais\ChainOfResponsibility\Handler;
+use RCS\DesignPatterns\Pt4Comportamentais\ChainOfResponsibility\Request;
 
 class ChainOfResponsibilityTest extends TestCase
 {

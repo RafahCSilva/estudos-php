@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt3Estruturais\Facade;
+namespace RCS\DesignPatterns\Pt3Estruturais\Facade;
 
-use RCS\DesignPatterns1\Pt3Estruturais\Decorator\EntityInterface;
-use RCS\DesignPatterns1\Pt3Estruturais\Decorator\OrmDecorator;
-use RCS\DesignPatterns1\Pt3Estruturais\Decorator\User;
+use RCS\DesignPatterns\Pt3Estruturais\Decorator\EntityInterface;
+use RCS\DesignPatterns\Pt3Estruturais\Decorator\OrmDecorator;
+use RCS\DesignPatterns\Pt3Estruturais\Decorator\User;
 
 class EntityFacade
 {
@@ -30,7 +30,7 @@ class EntityFacade
             (new \ReflectionClass(get_class($this->entity)))->getDocComment(),
             $matches
         );
-        $class = '\\RCS\\DesignPatterns1\\Pt3Estruturais\\Decorator\\' . $matches[1] . 'Decorator';
+        $class = '\\RCS\\DesignPatterns\\Pt3Estruturais\\Decorator\\' . $matches[1] . 'Decorator';
 
         /** @var OrmDecorator $orm */
         $orm = new $class;

@@ -1,11 +1,11 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt3Estruturais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt3Estruturais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt3Estruturais\Decorator\User;
-use RCS\DesignPatterns1\Pt3Estruturais\Facade\EntityFacade;
+use RCS\DesignPatterns\Pt3Estruturais\Decorator\User;
+use RCS\DesignPatterns\Pt3Estruturais\Facade\EntityFacade;
 
 class FacadeTest extends TestCase
 {

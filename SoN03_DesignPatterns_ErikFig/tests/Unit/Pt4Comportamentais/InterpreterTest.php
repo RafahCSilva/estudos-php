@@ -1,13 +1,13 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt4Comportamentais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt4Comportamentais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt4Comportamentais\Interpreter\Constitution;
-use RCS\DesignPatterns1\Pt4Comportamentais\Interpreter\Force;
-use RCS\DesignPatterns1\Pt4Comportamentais\Interpreter\Level;
-use RCS\DesignPatterns1\Pt4Comportamentais\Interpreter\Life;
+use RCS\DesignPatterns\Pt4Comportamentais\Interpreter\Constitution;
+use RCS\DesignPatterns\Pt4Comportamentais\Interpreter\Force;
+use RCS\DesignPatterns\Pt4Comportamentais\Interpreter\Level;
+use RCS\DesignPatterns\Pt4Comportamentais\Interpreter\Life;
 
 class InterpreterTest extends TestCase
 {

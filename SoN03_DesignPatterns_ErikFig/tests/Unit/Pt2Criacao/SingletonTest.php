@@ -1,10 +1,10 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt2Criacao;
+namespace Tests\RCS\DesignPatterns\Unit\Pt2Criacao;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt2Criacao\Singleton\Singleton;
+use RCS\DesignPatterns\Pt2Criacao\Singleton\Singleton;
 
 class SingletonTest extends TestCase
 {

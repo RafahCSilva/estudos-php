@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt1Intro\QueryBuilder;
+namespace RCS\DesignPatterns\Pt1Intro\QueryBuilder;
 
 class Sql implements Strategy
 {

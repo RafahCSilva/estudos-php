@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt4Comportamentais\State;
+namespace RCS\DesignPatterns\Pt4Comportamentais\State;
 
 class ClosedDoorState extends AbstractDoorState
 {

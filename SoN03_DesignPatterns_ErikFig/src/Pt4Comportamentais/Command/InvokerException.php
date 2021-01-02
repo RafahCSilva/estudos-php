@@ -1,6 +1,6 @@
 <?php
 
-namespace RCS\DesignPatterns1\Pt4Comportamentais\Command;
+namespace RCS\DesignPatterns\Pt4Comportamentais\Command;
 
 class InvokerException extends \RuntimeException
 {

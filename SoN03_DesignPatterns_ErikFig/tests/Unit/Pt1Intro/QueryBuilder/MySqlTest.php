@@ -4,9 +4,9 @@
  * @noinspection SqlNoDataSourceInspection
  */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt1Intro\QueryBuilder;
+namespace Tests\RCS\DesignPatterns\Unit\Pt1Intro\QueryBuilder;
 
-use RCS\DesignPatterns1\Pt1Intro\QueryBuilder\MySql;
+use RCS\DesignPatterns\Pt1Intro\QueryBuilder\MySql;
 use PHPUnit\Framework\TestCase;
 
 class MySqlTest extends TestCase

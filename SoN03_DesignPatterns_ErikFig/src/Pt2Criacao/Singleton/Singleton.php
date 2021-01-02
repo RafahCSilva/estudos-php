@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt2Criacao\Singleton;
+namespace RCS\DesignPatterns\Pt2Criacao\Singleton;
 
 class Singleton
 {

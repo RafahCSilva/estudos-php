@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt2Criacao\AbstractFactory;
+namespace RCS\DesignPatterns\Pt2Criacao\AbstractFactory;
 
 class LivroNode implements AbstractEditoraB
 {

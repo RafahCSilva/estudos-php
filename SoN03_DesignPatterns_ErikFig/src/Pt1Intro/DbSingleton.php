@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt1Intro;
+namespace RCS\DesignPatterns\Pt1Intro;
 
 use PDO;
 

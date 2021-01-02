@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt4Comportamentais\Mediator;
+namespace RCS\DesignPatterns\Pt4Comportamentais\Mediator;
 
 class Mediator implements MediatorInterface
 {

@@ -1,11 +1,11 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt2Criacao;
+namespace Tests\RCS\DesignPatterns\Unit\Pt2Criacao;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt2Criacao\AbstractFactory\EditoraA;
-use RCS\DesignPatterns1\Pt2Criacao\AbstractFactory\EditoraB;
+use RCS\DesignPatterns\Pt2Criacao\AbstractFactory\EditoraA;
+use RCS\DesignPatterns\Pt2Criacao\AbstractFactory\EditoraB;
 
 class AbstractFactoryTest extends TestCase
 {

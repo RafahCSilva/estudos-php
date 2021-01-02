@@ -1,15 +1,15 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Test\RCS\DesignPatterns1\Pt1Intro;
+namespace Test\RCS\DesignPatterns\Pt1Intro;
 
 use PDO;
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt1Intro\Builder\ModelAbstract;
-use RCS\DesignPatterns1\Pt1Intro\Builder\SqlBuilder;
-use RCS\DesignPatterns1\Pt1Intro\Db;
-use RCS\DesignPatterns1\Pt1Intro\DbSingleton;
-use RCS\DesignPatterns1\Pt1Intro\QueryBuilder\Sql;
+use RCS\DesignPatterns\Pt1Intro\Builder\ModelAbstract;
+use RCS\DesignPatterns\Pt1Intro\Builder\SqlBuilder;
+use RCS\DesignPatterns\Pt1Intro\Db;
+use RCS\DesignPatterns\Pt1Intro\DbSingleton;
+use RCS\DesignPatterns\Pt1Intro\QueryBuilder\Sql;
 
 class DbTest extends TestCase
 {

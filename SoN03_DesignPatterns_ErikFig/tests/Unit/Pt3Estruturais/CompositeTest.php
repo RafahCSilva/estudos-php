@@ -1,13 +1,13 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt3Estruturais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt3Estruturais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt3Estruturais\Composite\FrameworksCategory;
-use RCS\DesignPatterns1\Pt3Estruturais\Composite\LaravelCategory;
-use RCS\DesignPatterns1\Pt3Estruturais\Composite\PHPCategory;
-use RCS\DesignPatterns1\Pt3Estruturais\Composite\SolidCategory;
+use RCS\DesignPatterns\Pt3Estruturais\Composite\FrameworksCategory;
+use RCS\DesignPatterns\Pt3Estruturais\Composite\LaravelCategory;
+use RCS\DesignPatterns\Pt3Estruturais\Composite\PHPCategory;
+use RCS\DesignPatterns\Pt3Estruturais\Composite\SolidCategory;
 
 class CompositeTest extends TestCase
 {

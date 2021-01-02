@@ -1,11 +1,11 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt4Comportamentais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt4Comportamentais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt4Comportamentais\Observer\User;
-use RCS\DesignPatterns1\Pt4Comportamentais\Observer\UserObserver;
+use RCS\DesignPatterns\Pt4Comportamentais\Observer\User;
+use RCS\DesignPatterns\Pt4Comportamentais\Observer\UserObserver;
 
 class ObserverTest extends TestCase
 {

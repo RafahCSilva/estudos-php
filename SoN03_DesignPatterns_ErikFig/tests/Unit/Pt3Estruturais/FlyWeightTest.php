@@ -1,10 +1,10 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt3Estruturais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt3Estruturais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt3Estruturais\FlyWeight\FlyWeightFactory;
+use RCS\DesignPatterns\Pt3Estruturais\FlyWeight\FlyWeightFactory;
 
 class FlyWeightTest extends TestCase
 {

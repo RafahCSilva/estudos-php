@@ -1,13 +1,13 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt4Comportamentais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt4Comportamentais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt4Comportamentais\Mediator\ClientColleague;
-use RCS\DesignPatterns1\Pt4Comportamentais\Mediator\DatabaseColleague;
-use RCS\DesignPatterns1\Pt4Comportamentais\Mediator\Mediator;
-use RCS\DesignPatterns1\Pt4Comportamentais\Mediator\ServerColleague;
+use RCS\DesignPatterns\Pt4Comportamentais\Mediator\ClientColleague;
+use RCS\DesignPatterns\Pt4Comportamentais\Mediator\DatabaseColleague;
+use RCS\DesignPatterns\Pt4Comportamentais\Mediator\Mediator;
+use RCS\DesignPatterns\Pt4Comportamentais\Mediator\ServerColleague;
 
 class MediatorTest extends TestCase
 {

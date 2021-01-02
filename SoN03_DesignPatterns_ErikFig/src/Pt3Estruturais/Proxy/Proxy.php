@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt3Estruturais\Proxy;
+namespace RCS\DesignPatterns\Pt3Estruturais\Proxy;
 
 class Proxy implements PersonInterface
 {

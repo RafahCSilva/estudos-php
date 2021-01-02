@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt4Comportamentais\ChainOfResponsibility;
+namespace RCS\DesignPatterns\Pt4Comportamentais\ChainOfResponsibility;
 
 class Before extends Handler
 {

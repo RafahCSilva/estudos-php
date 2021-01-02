@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt1Intro\Builder;
+namespace RCS\DesignPatterns\Pt1Intro\Builder;
 
 class UsersDirector implements DirectorInterface
 {

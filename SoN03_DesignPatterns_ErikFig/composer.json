@@ -1,5 +1,5 @@
 {
-  "name": "rafahcsilva/design-patterns-1",
+  "name": "rafahcsilva/design-patterns",
   "type": "project",
   "authors": [
     {
@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "RCS\\DesignPatterns1\\": "src/"
+      "RCS\\DesignPatterns\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tests\\RCS\\DesignPatterns1\\": "tests/"
+      "Tests\\RCS\\DesignPatterns\\": "tests/"
     }
   },
   "scripts": {

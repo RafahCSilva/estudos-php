@@ -1,12 +1,12 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt3Estruturais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt3Estruturais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt3Estruturais\Adapter\BookAdapter;
-use RCS\DesignPatterns1\Pt3Estruturais\Adapter\PHPBook;
-use RCS\DesignPatterns1\Pt3Estruturais\Adapter\RenderBook;
+use RCS\DesignPatterns\Pt3Estruturais\Adapter\BookAdapter;
+use RCS\DesignPatterns\Pt3Estruturais\Adapter\PHPBook;
+use RCS\DesignPatterns\Pt3Estruturais\Adapter\RenderBook;
 
 class AdapterTest extends TestCase
 {

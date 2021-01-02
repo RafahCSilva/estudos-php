@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt1Intro\Builder;
+namespace Tests\RCS\DesignPatterns\Unit\Pt1Intro\Builder;
 
-use RCS\DesignPatterns1\Pt1Intro\Builder\SqlBuilder;
-use RCS\DesignPatterns1\Pt1Intro\Builder\UsersDirector;
+use RCS\DesignPatterns\Pt1Intro\Builder\SqlBuilder;
+use RCS\DesignPatterns\Pt1Intro\Builder\UsersDirector;
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt1Intro\QueryBuilder\Sql;
+use RCS\DesignPatterns\Pt1Intro\QueryBuilder\Sql;
 
 class UsersDirectorTest extends TestCase
 {

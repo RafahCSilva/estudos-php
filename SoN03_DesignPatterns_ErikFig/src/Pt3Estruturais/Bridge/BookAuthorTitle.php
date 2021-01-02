@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RCS\DesignPatterns1\Pt3Estruturais\Bridge;
+namespace RCS\DesignPatterns\Pt3Estruturais\Bridge;
 
 class BookAuthorTitle extends BridgeBook
 {

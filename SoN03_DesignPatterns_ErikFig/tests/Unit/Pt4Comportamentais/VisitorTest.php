@@ -1,12 +1,12 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt4Comportamentais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt4Comportamentais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt4Comportamentais\Visitor\LowerCaseVisitor;
-use RCS\DesignPatterns1\Pt4Comportamentais\Visitor\StringElement;
-use RCS\DesignPatterns1\Pt4Comportamentais\Visitor\UpperCaseVisitor;
+use RCS\DesignPatterns\Pt4Comportamentais\Visitor\LowerCaseVisitor;
+use RCS\DesignPatterns\Pt4Comportamentais\Visitor\StringElement;
+use RCS\DesignPatterns\Pt4Comportamentais\Visitor\UpperCaseVisitor;
 
 class VisitorTest extends TestCase
 {

@@ -1,13 +1,13 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt3Estruturais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt3Estruturais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt3Estruturais\Bridge\BookAuthorTitle;
-use RCS\DesignPatterns1\Pt3Estruturais\Bridge\BookTitleAuthor;
-use RCS\DesignPatterns1\Pt3Estruturais\Bridge\LowerImplementor;
-use RCS\DesignPatterns1\Pt3Estruturais\Bridge\UpperImplementor;
+use RCS\DesignPatterns\Pt3Estruturais\Bridge\BookAuthorTitle;
+use RCS\DesignPatterns\Pt3Estruturais\Bridge\BookTitleAuthor;
+use RCS\DesignPatterns\Pt3Estruturais\Bridge\LowerImplementor;
+use RCS\DesignPatterns\Pt3Estruturais\Bridge\UpperImplementor;
 
 class BridgeTest extends TestCase
 {

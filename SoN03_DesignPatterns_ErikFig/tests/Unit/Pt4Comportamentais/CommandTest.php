@@ -1,13 +1,13 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt4Comportamentais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt4Comportamentais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt4Comportamentais\Command\Invoker;
-use RCS\DesignPatterns1\Pt4Comportamentais\Command\InvokerException;
-use RCS\DesignPatterns1\Pt4Comportamentais\Command\TurnOffCommand;
-use RCS\DesignPatterns1\Pt4Comportamentais\Command\TurnOnCommand;
+use RCS\DesignPatterns\Pt4Comportamentais\Command\Invoker;
+use RCS\DesignPatterns\Pt4Comportamentais\Command\InvokerException;
+use RCS\DesignPatterns\Pt4Comportamentais\Command\TurnOffCommand;
+use RCS\DesignPatterns\Pt4Comportamentais\Command\TurnOnCommand;
 
 class CommandTest extends TestCase
 {

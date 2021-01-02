@@ -1,11 +1,11 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt4Comportamentais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt4Comportamentais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt4Comportamentais\TemplateMethod\DiscountOrder;
-use RCS\DesignPatterns1\Pt4Comportamentais\TemplateMethod\IncreaseOrder;
+use RCS\DesignPatterns\Pt4Comportamentais\TemplateMethod\DiscountOrder;
+use RCS\DesignPatterns\Pt4Comportamentais\TemplateMethod\IncreaseOrder;
 
 class TemplateMethodTest extends TestCase
 {

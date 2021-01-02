@@ -1,11 +1,11 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt4Comportamentais;
+namespace Tests\RCS\DesignPatterns\Unit\Pt4Comportamentais;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt4Comportamentais\Iterator\MyIterator;
-use RCS\DesignPatterns1\Pt4Comportamentais\Iterator\MyIteratorTwo;
+use RCS\DesignPatterns\Pt4Comportamentais\Iterator\MyIterator;
+use RCS\DesignPatterns\Pt4Comportamentais\Iterator\MyIteratorTwo;
 
 class IteratorTest extends TestCase
 {

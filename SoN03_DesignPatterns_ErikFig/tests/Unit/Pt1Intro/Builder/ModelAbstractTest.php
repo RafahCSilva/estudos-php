@@ -1,15 +1,15 @@
 <?php
 /** @noinspection StaticInvocationViaThisInspection */
 
-namespace Tests\RCS\DesignPatterns1\Unit\Pt1Intro\Builder;
+namespace Tests\RCS\DesignPatterns\Unit\Pt1Intro\Builder;
 
 use PHPUnit\Framework\TestCase;
-use RCS\DesignPatterns1\Pt1Intro\App\Model\Banks;
-use RCS\DesignPatterns1\Pt1Intro\App\Model\BanksAlternative;
-use RCS\DesignPatterns1\Pt1Intro\Builder\ModelAbstract;
-use RCS\DesignPatterns1\Pt1Intro\Builder\SqlBuilder;
-use RCS\DesignPatterns1\Pt1Intro\QueryBuilder\MySql;
-use RCS\DesignPatterns1\Pt1Intro\QueryBuilder\Sql;
+use RCS\DesignPatterns\Pt1Intro\App\Model\Banks;
+use RCS\DesignPatterns\Pt1Intro\App\Model\BanksAlternative;
+use RCS\DesignPatterns\Pt1Intro\Builder\ModelAbstract;
+use RCS\DesignPatterns\Pt1Intro\Builder\SqlBuilder;
+use RCS\DesignPatterns\Pt1Intro\QueryBuilder\MySql;
+use RCS\DesignPatterns\Pt1Intro\QueryBuilder\Sql;
 
 class ModelAbstractTest extends TestCase
 {
