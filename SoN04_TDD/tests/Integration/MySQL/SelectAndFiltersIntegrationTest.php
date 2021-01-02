@@ -17,6 +17,7 @@ use RCS\QueryBuilder\MySQL\Select;
 class SelectAndFiltersIntegrationTest extends TestCase
 {
     /**
+     * 01
      * @covers \RCS\QueryBuilder\MySQL\Select
      * @covers \RCS\QueryBuilder\MySQL\Filters
      */
@@ -35,6 +36,7 @@ class SelectAndFiltersIntegrationTest extends TestCase
     }
 
     /**
+     * 00
      * @covers \RCS\QueryBuilder\MySQL\Select
      * @covers \RCS\QueryBuilder\MySQL\Filters
      */
@@ -50,6 +52,7 @@ class SelectAndFiltersIntegrationTest extends TestCase
     }
 
     /**
+     * 10
      * @covers \RCS\QueryBuilder\MySQL\Select
      * @covers \RCS\QueryBuilder\MySQL\Filters
      */
@@ -66,6 +69,7 @@ class SelectAndFiltersIntegrationTest extends TestCase
     }
 
     /**
+     * 11
      * @covers \RCS\QueryBuilder\MySQL\Select
      * @covers \RCS\QueryBuilder\MySQL\Filters
      */

@@ -1,5 +1,8 @@
 <?php
-/** @noinspection StaticInvocationViaThisInspection */
+/**
+ * @noinspection SqlNoDataSourceInspection
+ * @noinspection StaticInvocationViaThisInspection
+ */
 
 /**
  * Created by PhpStorm
@@ -11,6 +14,7 @@
 namespace Tests\RCS\QueryBuilder\Unit\MySQL;
 
 use PHPUnit\Framework\TestCase;
+use RCS\QueryBuilder\MySQL\Filters;
 use RCS\QueryBuilder\MySQL\Select;
 
 /**
@@ -54,4 +58,66 @@ class SelectTest extends TestCase
                 ->getSql()
         );
     }
+
+    /**
+     * @covers \RCS\QueryBuilder\MySQL\Select
+     */
+    public function testSelectWithMockFilter(): void
+    {
+        $filterMocked = $this
+            ->getMockBuilder(Filters::class)
+            ->disableOriginalConstructor()
+            ->getMock();
+        $filterMocked
+            ->method('getSql')
+            ->willReturn('WHERE id=1 ORDER BY created desc');
+
+        // 01
+        $this->assertEquals(
+            'SELECT * FROM pages WHERE id=1 ORDER BY created desc;',
+            (new Select())
+                ->table('pages')
+                ->filter($filterMocked)
+                ->getSql()
+        );
+
+        // 11
+        $this->assertEquals(
+            'SELECT id, page FROM pages WHERE id=1 ORDER BY created desc;',
+            (new Select())
+                ->table('pages')
+                ->fields(['id', 'page'])
+                ->filter($filterMocked)
+                ->getSql()
+        );
+
+
+        $filterMockedEmpty = $this
+            ->getMockBuilder(Filters::class)
+            ->disableOriginalConstructor()
+            ->getMock();
+        $filterMockedEmpty
+            ->method('getSql')
+            ->willReturn('');
+
+        // 00
+        $this->assertEquals(
+            'SELECT * FROM pages;',
+            (new Select())
+                ->table('pages')
+                ->filter($filterMockedEmpty)
+                ->getSql()
+        );
+
+        // 10
+        $this->assertEquals(
+            'SELECT id, page FROM pages;',
+            (new Select())
+                ->table('pages')
+                ->fields(['id', 'page'])
+                ->filter($filterMockedEmpty)
+                ->getSql()
+        );
+    }
+
 }
