@@ -1,0 +1,30 @@
+{
+  "name": "rafahcsilva/php-tdd",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Rafael Cardoso",
+      "email": "rafahcsilva@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "ext-xdebug": "*",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "RCS\\QueryBuilder\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\RCS\\QueryBuilder\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}

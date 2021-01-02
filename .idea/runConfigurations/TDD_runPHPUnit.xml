@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TDD_runPHPUnit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <CommandLine workingDirectory="$PROJECT_DIR$/SoN03_DesignPatterns_ErikFig" />
+    <TestRunner configuration_file="$PROJECT_DIR$/SoN04_TDD/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+    <method v="2" />
+  </configuration>
+</component>

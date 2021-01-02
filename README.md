@@ -17,10 +17,10 @@ Meus estudos de PHP avançado.
     - [x] Design Patterns (pt2): Padrões de criação [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-pt2-padroes-de-criacao/)
     - [x] Design Patterns (pt3): Padrões estruturais [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-padroes-estruturais/)
     - [x] Design Patterns (pt4): Padrões Comportamentais [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-parte-4/)
-- Design Patterns por Victor Lima
-    - [ ] Design patterns - Parte 1 [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-parte-1/)
-    - [ ] Design patterns - Parte 2 [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-parte-2/)
-    - [ ] Design patterns - Parte 3 [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-parte-3/)
+- ~~Design Patterns por Victor Lima~~
+    - [ ] ~~Design patterns - Parte 1~~ [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-parte-1/)
+    - [ ] ~~Design patterns - Parte 2~~ [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-parte-2/)
+    - [ ] ~~Design patterns - Parte 3~~ [link](https://www.schoolofnet.com/curso/php/design-patterns-e-php/design-patterns-parte-3/)
 - DataBase
     - [ ] PHP padrão Active Record [link](https://www.schoolofnet.com/curso/php/linguagem-php/php-padrao-active-record/)
     - [ ] PHP padrão Data Mapper [link](https://www.schoolofnet.com/curso/php/linguagem-php/php-padrao-data-mapper/)
@@ -33,7 +33,7 @@ Meus estudos de PHP avançado.
 - Qualidade
     - [ ] Iniciando com Sonarqube [link](https://www.schoolofnet.com/curso/seguranca/sonarqube/iniciando-com-sonarqube/)
 - PHPUnit
-    - [ ] Testes com PHPUnit [link](https://www.schoolofnet.com/curso/php/outros-frameworks-php/testes-com-phpunit/)
+    - [ ] ~~Testes com PHPUnit~~ [link](https://www.schoolofnet.com/curso/php/outros-frameworks-php/testes-com-phpunit/)
     - [ ] TDD com PHP [link](https://www.schoolofnet.com/curso/php/linguagem-php/tdd-com-php/)
     - [ ] Laravel 5.4 com testes automatizados [link](https://www.schoolofnet.com/curso/php/laravel/laravel-54-com-tdd/)
     - [ ] Laravel Dusk [link](https://www.schoolofnet.com/curso/php/laravel/laravel-dusk/)

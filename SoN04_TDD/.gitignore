@@ -1,0 +1,5 @@
+_SoN_GH/
+vendor
+/.phpunit.result.cache
+/.scannerwork/
+tests/_reports
