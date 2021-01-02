@@ -28,6 +28,13 @@ class SelectTest extends TestCase
         $expected = 'SELECT * FROM pages;';
 
         $this->assertEquals($expected, $actual);
+
+        $this->assertEquals(
+            'SELECT * FROM testes;',
+            (new Select())
+                ->table('testes')
+                ->getSql()
+        );
     }
 
 }

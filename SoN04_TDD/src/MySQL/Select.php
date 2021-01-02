@@ -1,4 +1,6 @@
 <?php
+/** @noinspection SqlNoDataSourceInspection */
+
 /**
  * Created by PhpStorm
  * User: rafaelcardoso
@@ -10,13 +12,16 @@ namespace RCS\QueryBuilder\MySQL;
 
 class Select
 {
+    private string $table;
 
-    public function table(string $table): void
+    public function table(string $table): self
     {
+        $this->table = $table;
+        return $this;
     }
 
     public function getSql(): string
     {
-        return "SELECT * FROM pages;";
+        return sprintf("SELECT * FROM %s;", $this->table);
     }
 }
