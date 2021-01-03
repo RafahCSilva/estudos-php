@@ -32,7 +32,7 @@ sail php --version
 
 # Node and NPM
 sail node --version
-sail npm install
+sail npm --version
 
 # EX: 
 #   Runs php artisan queue:work in the container
@@ -41,4 +41,13 @@ sail npm install
 #     sail composer require laravel/sanctum
 
 # Acesse http://localhost/
+
+# Install laravel/breeze
+sail composer require laravel/breeze --dev
+sail php artisan breeze:install
+sail npm install
+sail npm run dev
+
+# migrate
+sail art migrate
 ````
