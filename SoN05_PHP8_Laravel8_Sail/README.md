@@ -65,3 +65,15 @@ sail art db:seed
 # Testing
 sail art test
 ````
+
+
+````shell
+sail art make:controller ApiControllerTrait
+sail art make:controller AccoountController
+sail art make:controller BanksController
+sail art make:controller UsersController
+
+# http://localhost/api/banks
+# http://localhost/api/banks?limit=3
+# http://localhost/api/banks?like=title,itau
+````
