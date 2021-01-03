@@ -15,11 +15,21 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function testBasicTest(): void
+    public function testHomeResponseStatus(): void
     {
         $response = $this->get('/');
 
         $response->assertStatus(200);
+    }
+
+    public function testAuthentication(): void
+    {
+        $user = User::factory()->create();
+        $response = $this
+            ->actingAs($user)
+            ->get('/dashboard');
+        $response->assertStatus(200);
+
     }
 
     public function testDatabaseUser(): void
