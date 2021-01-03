@@ -61,4 +61,7 @@ sail art make:seed BanksTableSeeder
 # Migrate & seed
 sail art migrate
 sail art db:seed
+
+# Testing
+sail art test
 ````
