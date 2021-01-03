@@ -51,3 +51,14 @@ sail npm run dev
 # migrate
 sail art migrate
 ````
+
+````shell
+# Cearte Model/Migration/Seeder
+sail art make:model Account --migration
+sail art make:model Bank --migration
+sail art make:seed BanksTableSeeder
+
+# Migrate & seed
+sail art migrate
+sail art db:seed
+````
