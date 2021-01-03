@@ -26,16 +26,19 @@ Meus estudos de PHP avançado.
     - [ ] PHP padrão Data Mapper [link](https://www.schoolofnet.com/curso/php/linguagem-php/php-padrao-data-mapper/)
 - Segurança
     - [ ] PHP - introdução à segurança [link](https://www.schoolofnet.com/curso/php/linguagem-php/php-introducao-seguranca/)
-
+- Laravel Avançado
+    - [ ] Laravel 5.4 - Boas Práticas em Eventos e Filas [link](https://www.schoolofnet.com/curso/php/laravel/laravel54-eventos-e-filas/)
+    - [x] Laravel Horizon (Direto ao Ponto) [link](https://www.schoolofnet.com/canal-direto-ao-ponto/laravel-horizon/)
+    - [ ] Laravel Horizon Essencial [link](https://www.schoolofnet.com/curso/php/laravel/laravel-horizon-essencial/)
 
 ### Qualidade e Testes
 
 - Qualidade
     - [ ] Iniciando com Sonarqube [link](https://www.schoolofnet.com/curso/seguranca/sonarqube/iniciando-com-sonarqube/)
 - PHPUnit
-    - [ ] ~~Testes com PHPUnit~~ [link](https://www.schoolofnet.com/curso/php/outros-frameworks-php/testes-com-phpunit/)
-    - [ ] TDD com PHP [link](https://www.schoolofnet.com/curso/php/linguagem-php/tdd-com-php/)
-    - [ ] Laravel 5.4 com testes automatizados [link](https://www.schoolofnet.com/curso/php/laravel/laravel-54-com-tdd/)
+    - [x] ~~Testes com PHPUnit~~ [link](https://www.schoolofnet.com/curso/php/outros-frameworks-php/testes-com-phpunit/)
+    - [x] TDD com PHP [link](https://www.schoolofnet.com/curso/php/linguagem-php/tdd-com-php/)
+    - [x] Laravel 5.4 com testes automatizados [link](https://www.schoolofnet.com/curso/php/laravel/laravel-54-com-tdd/)
     - [ ] Laravel Dusk [link](https://www.schoolofnet.com/curso/php/laravel/laravel-dusk/)
     - [ ] Testando aplicações Laravel com PHP Unit (live) [link](https://www.schoolofnet.com/aula-ao-vivo/testando-aplicacoes-laravel-com-php-unit/)
 - Infra
