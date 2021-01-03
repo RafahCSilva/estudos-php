@@ -77,3 +77,11 @@ sail art make:controller UsersController
 # http://localhost/api/banks?limit=3
 # http://localhost/api/banks?like=title,itau
 ````
+
+````shell
+# Installing barryvdh/laravel-ide-helper
+sail composer require --dev barryvdh/laravel-ide-helper
+sail art ide-helper:generate
+sail art ide-helper:meta
+sail art ide-helper:models -W
+````
