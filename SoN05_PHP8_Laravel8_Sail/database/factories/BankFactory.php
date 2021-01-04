@@ -1,0 +1,31 @@
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Bank;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class BankFactory extends Factory
+{
+    /**
+     * The name of the factory's corresponding model.
+     *
+     * @var string
+     */
+    protected $model = Bank::class;
+
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        $this->faker->addProvider(new \Faker\Provider\pt_BR\Payment($this->faker));
+
+        return [
+            'title'=> $this->faker->bank,
+            'code'=> $this->faker->numerify()
+        ];
+    }
+}

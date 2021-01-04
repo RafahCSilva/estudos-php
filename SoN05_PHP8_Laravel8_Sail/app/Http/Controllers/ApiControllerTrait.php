@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
-    /** @property-read  \Illuminate\Database\Eloquent\Model| Eloquent $model */
+/** @property-read  \Illuminate\Database\Eloquent\Model $model */
 trait ApiControllerTrait
 {
 
@@ -47,7 +47,7 @@ trait ApiControllerTrait
             ->with($this->relationships())
             ->paginate($limit);
 
-        return response()->json($result);
+        return response()->json($result); // , 200, [], JSON_NUMERIC_CHECK);
     }
 
     /**

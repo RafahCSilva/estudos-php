@@ -19,7 +19,7 @@ class CreateAccountsTable extends Migration
             $table->integer('agency');
             $table->integer('account_number');
             $table->decimal('balance', 11, 2);
-            $table->decimal('balance_initial', 11,2);
+            $table->decimal('balance_initial', 11, 2);
             $table->integer('bank_id');
             $table->string('bank_image')->nullable();
             $table->timestamps();

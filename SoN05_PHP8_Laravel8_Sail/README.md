@@ -91,3 +91,8 @@ sail art ide-helper:generate
 sail art ide-helper:meta
 sail art ide-helper:models -W
 ````
+
+````shell
+sail art make:factory AccountFactory -m Account
+sail art make:factory BankFactory -m Bank
+````

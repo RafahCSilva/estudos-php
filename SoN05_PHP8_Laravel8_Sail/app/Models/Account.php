@@ -12,8 +12,8 @@ use Illuminate\Database\Eloquent\Model;
  * @property string $title
  * @property int $agency
  * @property int $account_number
- * @property string $balance
- * @property string $balance_initial
+ * @property float $balance
+ * @property float $balance_initial
  * @property int $bank_id
  * @property string|null $bank_image
  * @property \Illuminate\Support\Carbon|null $created_at
@@ -47,6 +47,15 @@ class Account extends Model
         'balance_initial',
         'bank_id',
         'bank_image'
+    ];
+    protected $casts = [
+        'title'           => 'string',
+        'agency'          => 'integer',
+        'account_number'  => 'integer',
+        'balance'         => 'float', // 'decimal,2',
+        'balance_initial' => 'float', // 'decimal,2',
+        'bank_id'         => 'integer',
+        'bank_image'      => 'string',
     ];
 
     public function bank()
