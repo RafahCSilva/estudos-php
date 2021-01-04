@@ -74,7 +74,7 @@ sail shell
 
 ````shell
 sail art make:controller ApiControllerTrait
-sail art make:controller AccoountController
+sail art make:controller AccountController
 sail art make:controller BanksController
 sail art make:controller UsersController
 
@@ -86,6 +86,7 @@ sail art make:controller UsersController
 ````shell
 # Installing barryvdh/laravel-ide-helper
 sail composer require --dev barryvdh/laravel-ide-helper
+sail php artisan vendor:publish --provider="Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider" --tag=config
 sail art ide-helper:generate
 sail art ide-helper:meta
 sail art ide-helper:models -W
