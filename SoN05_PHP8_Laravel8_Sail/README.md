@@ -95,4 +95,5 @@ sail art ide-helper:models -W
 ````shell
 sail art make:factory AccountFactory -m Account
 sail art make:factory BankFactory -m Bank
+sail art make:test AccountTest
 ````
