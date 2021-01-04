@@ -4,7 +4,9 @@ namespace Tests\Feature;
 
 use App\Models\Account;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Storage;
 use Tests\TestCase;
 
 class AccountTest extends TestCase
@@ -124,5 +126,23 @@ class AccountTest extends TestCase
         $response->assertStatus(200);
 
         $this->assertNull(Account::find($data->id));
+    }
+
+    public function testApiUploadOnStore(): void
+    {
+        $data = Account::factory()->make()->toArray();
+
+        // Fake the Storage disk public
+        Storage::fake('public');
+
+        // Create a image 300x300
+        $data['bank_image'] = UploadedFile::fake()->image('testando.jpeg', 300, 300);
+
+        $response = $this->json('POST', '/api/accounts/', $data);
+        $response->assertStatus(200);
+
+        // Check if image was stored and saved
+        Storage::disk('public')->assertExists('images/testando.jpeg');
+        $this->assertEquals('testando.jpeg', Account::find(1)->bank_image);
     }
 }

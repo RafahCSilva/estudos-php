@@ -96,4 +96,6 @@ sail art ide-helper:models -W
 sail art make:factory AccountFactory -m Account
 sail art make:factory BankFactory -m Bank
 sail art make:test AccountTest
+
+sail art make:observer AccountObserver --model=Account
 ````

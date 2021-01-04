@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 /**
  * App\Models\Account
@@ -15,7 +16,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property float $balance
  * @property float $balance_initial
  * @property int $bank_id
- * @property string|null $bank_image
+ * @property string|null|UploadedFile $bank_image
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Bank $bank
@@ -55,7 +56,7 @@ class Account extends Model
         'balance'         => 'float', // 'decimal,2',
         'balance_initial' => 'float', // 'decimal,2',
         'bank_id'         => 'integer',
-        'bank_image'      => 'string',
+        //'bank_image'      => 'string', // nao pode cast qdo UploadedFile
     ];
 
     public function bank()
