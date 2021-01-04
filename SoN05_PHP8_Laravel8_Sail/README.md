@@ -64,6 +64,11 @@ sail art db:seed
 
 # Testing
 sail art test
+# or
+sail shell
+./run_tests.sh --fast
+./run_tests.sh --art
+./run_tests.sh
 ````
 
 

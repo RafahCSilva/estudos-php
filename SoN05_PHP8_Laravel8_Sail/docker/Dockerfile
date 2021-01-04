@@ -45,6 +45,12 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY php.ini /etc/php/8.0/cli/conf.d/99-sail.ini
 RUN chmod +x /usr/local/bin/start-container
 
+# Install xdebug
+RUN apt-get update \
+    && apt-get install -y php8.0-xdebug \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN echo "xdebug.mode=coverage" >> /etc/php/8.0/mods-available/xdebug.ini
+
 EXPOSE 8000
 
 ENTRYPOINT ["start-container"]

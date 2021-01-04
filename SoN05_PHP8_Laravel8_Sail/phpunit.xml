@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
-         bootstrap="vendor/autoload.php"
-         colors="true"
+<!-- https://phpunit.readthedocs.io/en/9.3/configuration.html# -->
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    cacheResultFile="tests/_reports/.phpunit.cache/test-results"
+    executionOrder="depends,defects"
+    forceCoversAnnotation="false"
+    beStrictAboutCoversAnnotation="true"
+    beStrictAboutOutputDuringTests="true"
+    beStrictAboutTodoAnnotatedTests="true"
+    failOnRisky="true"
+    failOnWarning="true"
+    verbose="true"
 >
+
     <testsuites>
         <testsuite name="Unit">
             <directory suffix="Test.php">./tests/Unit</directory>
@@ -15,11 +27,37 @@
         <!--    <directory suffix="Test.php">./tests/FeatureAuths</directory>-->
         <!--</testsuite>-->
     </testsuites>
-    <coverage processUncoveredFiles="true">
+
+    <coverage
+        cacheDirectory="tests/_reports/.phpunit.cache/code-coverage"
+        includeUncoveredFiles="true"
+        processUncoveredFiles="true"
+        pathCoverage="true"
+        ignoreDeprecatedCodeUnits="true"
+        disableCodeCoverageIgnore="false"
+    >
         <include>
             <directory suffix=".php">./app</directory>
         </include>
+        <report>
+            <clover outputFile="tests/_reports/_coverage/clover.xml"/>
+            <crap4j outputFile="tests/_reports/_coverage/crap4j.xml" threshold="50"/>
+            <html outputDirectory="tests/_reports/_coverage/html-coverage" lowUpperBound="50" highLowerBound="80"/>
+            <xml outputDirectory="tests/_reports/_coverage/xml-coverage"/>
+            <php outputFile="tests/_reports/_coverage/coverage.php"/>
+            <text outputFile="tests/_reports/_coverage/coverage.txt" showUncoveredFiles="true" showOnlySummary="true"/>
+        </report>
     </coverage>
+
+    <logging>
+        <junit outputFile="tests/_reports/report.junit.xml"/>
+        <teamcity outputFile="tests/_reports/_teamcity/teamcity.txt"/>
+        <testdoxHtml outputFile="tests/_reports/_testdox/testdox.html"/>
+        <testdoxText outputFile="tests/_reports/_testdox/testdox.txt"/>
+        <testdoxXml outputFile="tests/_reports/_testdox/testdox.xml"/>
+        <text outputFile="tests/_reports/logfile.txt"/>
+    </logging>
+
     <php>
         <server name="APP_ENV" value="testing"/>
         <server name="BCRYPT_ROUNDS" value="4"/>

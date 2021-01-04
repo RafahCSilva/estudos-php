@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PHPUnit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" singleton="true">
+    <CommandLine>
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="SAIL PHP 8 (Docker &gt; laravel.test)" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <TestRunner configuration_file="/var/www/html/phpunit.xml" scope="XML" />
+    <method v="2" />
+  </configuration>
+</component>
