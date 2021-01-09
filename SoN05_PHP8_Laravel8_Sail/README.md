@@ -108,4 +108,7 @@ sail php artisan dusk:install
 # run dusk tests
 sail dusk
 sail artisan dusk:make LoginTest
+
+# source do curso
+git clone https://github.com/schoolofnetcom/laravel-dusk.git __laravel-dusk
 ````
