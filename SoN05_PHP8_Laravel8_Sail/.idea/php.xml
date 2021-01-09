@@ -126,12 +126,15 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="2734a04e-3962-4a76-82c2-ee092c9dcd77" name="SAIL PHP 8 (Docker &gt; laravel.test)" home="docker-compose://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="laravel.test" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker for Mac" DOCKER_COMPOSE_SERVICE_NAME="laravel.test" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
           <type_data command="EXEC" />
           <dockerComposeConfigurationPaths>
             <item value="$PROJECT_DIR$/docker-compose.yml" />
           </dockerComposeConfigurationPaths>
-          <envs />
+          <envs>
+            <env name="APP_URL" value="http://laravel.test" />
+            <env name="DUSK_DRIVER_URL" value="http://selenium:4444/wd/hub" />
+          </envs>
         </remote_data>
       </interpreter>
     </interpreters>
