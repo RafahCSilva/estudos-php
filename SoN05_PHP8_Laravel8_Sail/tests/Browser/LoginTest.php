@@ -8,6 +8,11 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Laravel\Dusk\Browser;
 use Tests\DuskTestCase;
 
+/**
+ * Class LoginTest
+ * @package Tests\Browser
+ * @group login
+ */
 class LoginTest extends DuskTestCase
 {
     use DatabaseMigrations;
@@ -42,7 +47,29 @@ class LoginTest extends DuskTestCase
                 ->type('email', $user->email)
                 ->type('password', 'password')
                 ->press('LOGIN')
-                ->assertPathIs(RouteServiceProvider::HOME);
+                ->assertPathIs(RouteServiceProvider::HOME)
+                ->assertAuthenticatedAs($user);
+        });
+    }
+
+    public function testLoginAndLogout(): void
+    {
+        $user = User::factory()->create();
+        $this->browse(function (Browser $browser) use ($user) {
+            $browser
+
+                // Login
+                ->loginAs($user )
+
+                // Asset Logged
+                ->visit(RouteServiceProvider::HOME)
+                ->assertSee('Dashboard')
+                ->assertAuthenticated()
+                ->assertAuthenticatedAs($user)
+
+                // Logout
+                ->logout()
+                ->assertGuest();
         });
     }
 
