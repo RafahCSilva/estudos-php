@@ -107,4 +107,5 @@ sail php artisan dusk:install
 
 # run dusk tests
 sail dusk
+sail artisan dusk:make LoginTest
 ````

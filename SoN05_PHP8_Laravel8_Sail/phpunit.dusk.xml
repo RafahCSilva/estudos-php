@@ -14,4 +14,20 @@
             <directory suffix="Test.php">./tests/Browser</directory>
         </testsuite>
     </testsuites>
+    <coverage
+        cacheDirectory="tests/_reports/.phpunit.cache/code-coverage"
+        includeUncoveredFiles="true"
+        processUncoveredFiles="true"
+        pathCoverage="true"
+        ignoreDeprecatedCodeUnits="true"
+        disableCodeCoverageIgnore="false"
+    >
+        <include>
+            <directory suffix=".php">./app</directory>
+        </include>
+        <report>
+            <clover outputFile="tests/_reports_dusk/_coverage/clover.xml"/>
+            <html outputDirectory="tests/_reports_dusk/_coverage/html-coverage" lowUpperBound="50" highLowerBound="80"/>
+        </report>
+    </coverage>
 </phpunit>
