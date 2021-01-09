@@ -39,8 +39,10 @@ Meus estudos de PHP avançado.
     - [x] ~~Testes com PHPUnit~~ [link](https://www.schoolofnet.com/curso/php/outros-frameworks-php/testes-com-phpunit/)
     - [x] TDD com PHP [link](https://www.schoolofnet.com/curso/php/linguagem-php/tdd-com-php/)
     - [x] Laravel 5.4 com testes automatizados [link](https://www.schoolofnet.com/curso/php/laravel/laravel-54-com-tdd/)
-    - [ ] Laravel Dusk [link](https://www.schoolofnet.com/curso/php/laravel/laravel-dusk/)
-    - [ ] Testando aplicações Laravel com PHP Unit (live) [link](https://www.schoolofnet.com/aula-ao-vivo/testando-aplicacoes-laravel-com-php-unit/)
+    - [x] Laravel Dusk [link](https://www.schoolofnet.com/curso/php/laravel/laravel-dusk/)
+    - [x] Testando aplicações Laravel com PHP Unit (live) [link](https://www.schoolofnet.com/aula-ao-vivo/testando-aplicacoes-laravel-com-php-unit/)
+- Front-end testing
+    - [ ] Vue Test Utils [link](https://www.schoolofnet.com/curso/frontend/vuejs/vue-test-utils/)
 - Infra
     - [ ] Testando aplicações com JMeter [link](https://www.schoolofnet.com/curso/monitoramento/jmeter/testando-aplicacoes-com-jmeter/)
     - [ ] Otimizando PHP-FPM [link](https://www.schoolofnet.com/curso/php/linguagem-php/otimizando-php-fpm/)

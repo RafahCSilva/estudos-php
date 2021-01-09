@@ -99,3 +99,12 @@ sail art make:test AccountTest
 
 sail art make:observer AccountObserver --model=Account
 ````
+
+````shell
+sail composer require --dev laravel/dusk
+sail php artisan dusk:install
+# if using sail: enable selenium service in docker-compose.yml https://laravel.com/docs/8.x/sail#laravel-dusk
+
+# run dusk tests
+sail dusk
+````
