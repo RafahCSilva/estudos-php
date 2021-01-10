@@ -112,3 +112,10 @@ sail artisan dusk:make LoginTest
 # source do curso
 git clone https://github.com/schoolofnetcom/laravel-dusk.git __laravel-dusk
 ````
+
+````shell
+sail art make:listener EstudosCache/LogCacheHit
+sail art make:listener EstudosCache/LogCacheMissed
+sail art make:listener EstudosCache/LogKeyForgotten
+sail art make:listener EstudosCache/LogKeyWritten
+````
