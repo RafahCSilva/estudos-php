@@ -121,6 +121,6 @@ sail art make:listener EstudosCache/LogKeyWritten
 ````
 
 ````shell
-sail art make:mail UserRegistered --markdown=emails.user.registered
+sail art make:mail UserRegisteredMail --markdown=emails.user.registered
 sail art make:observer UserObserver --model=User
 ````

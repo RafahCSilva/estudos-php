@@ -7,7 +7,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class UserRegistered extends Mailable
+class UserRegisteredMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -32,7 +32,6 @@ class UserRegistered extends Mailable
     {
         return $this
             ->subject('Sua conta foi Criada!')
-            ->from('asdf@asdf.com')
             ->markdown('emails.user.registered');
     }
 }

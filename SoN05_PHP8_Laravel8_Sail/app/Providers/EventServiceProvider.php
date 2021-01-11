@@ -37,6 +37,10 @@ class EventServiceProvider extends ServiceProvider
         \Illuminate\Cache\Events\KeyWritten::class => [
             \App\Listeners\EstudosCache\LogKeyWritten::class
         ],
+
+        \App\Events\UserRegisteredEvent::class => [
+            \App\Listeners\UserRegisteredListener::class
+        ]
     ];
 
     /**
