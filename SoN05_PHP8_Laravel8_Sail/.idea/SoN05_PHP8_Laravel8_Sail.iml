@@ -128,6 +128,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/dusk" />
       <excludeFolder url="file://$MODULE_DIR$/tests/_reports_dusk" />
       <excludeFolder url="file://$MODULE_DIR$/__laravel-dusk" />
+      <excludeFolder url="file://$MODULE_DIR$/__l54-boas-praticas-eventos-filas" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

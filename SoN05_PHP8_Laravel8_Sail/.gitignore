@@ -16,3 +16,4 @@ yarn-error.log
 /tests/_reports/
 /tests/_reports_dusk/
 /__laravel-dusk/
+/__l54-boas-praticas-eventos-filas/

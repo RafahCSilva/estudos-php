@@ -119,3 +119,7 @@ sail art make:listener EstudosCache/LogCacheMissed
 sail art make:listener EstudosCache/LogKeyForgotten
 sail art make:listener EstudosCache/LogKeyWritten
 ````
+
+````shell
+sail art make:mail UserRegistered --markdown=emails.user.registered
+````
